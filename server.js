@@ -1,7 +1,7 @@
 let my_div = newDiv = null;
 
 data = {
-zavtrak1: ['https://rosphoto.com/images/u/articles/1510/7_5.jpg,
+zavtrak1: ['https://rosphoto.com/images/u/articles/1510/7_5.jpg',
 'Ванильные маффины',
 'Ингридиенты (на 5 порций):',
 'Лимон - 1-2 шт. (в зависимости от размера)',

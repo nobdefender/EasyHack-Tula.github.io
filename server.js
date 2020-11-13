@@ -69,7 +69,7 @@ zavtrak2: ['Яблочные ПП-оладьи',
 };
 async function it ()
 {
-let url = 'http://EasyHack-Tula.github.io/people';
+let url = 'http://EasyHack-Tula.github.io/people.json';
 let response = await fetch(url);
 let json = await response.json();
 await console.log(json);

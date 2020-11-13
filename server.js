@@ -1,7 +1,7 @@
 let my_div = newDiv = null;
 
 data = {
-zavtrak1: ['https://www.rosphoto.com/images/u/articles/1510/7_5.j..,
+zavtrak1: ['https://rosphoto.com/images/u/articles/1510/7_5.jpg,
 'Ванильные маффины',
 'Ингридиенты (на 5 порций):',
 'Лимон - 1-2 шт. (в зависимости от размера)',
@@ -69,7 +69,7 @@ zavtrak2: ['Яблочные ПП-оладьи',
 };
 async function it ()
 {
-let url = 'http://localhost:3000/people';
+let url = 'http://EasyHack-Tula.github.io/people';
 let response = await fetch(url);
 let json = await response.json();
 await console.log(json);
